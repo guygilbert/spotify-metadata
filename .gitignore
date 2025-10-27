@@ -1,0 +1,30 @@
+# ---- Ignore local secrets and environment files ----
+.env
+*.csv
+*.log
+
+# ---- Python cache and compiled files ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# ---- Virtual environments ----
+venv/
+.envrc/
+.venv/
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Temporary files ----
+*.tmp
+*.bak
+*.swp
+
+# ---- IDE / Editor folders ----
+.vscode/
+.idea/
